@@ -1,23 +1,38 @@
----
-layout: default
----
+<html>
+<title>Cam</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stolenWebsite.css">
+<iframe width="0" height="0" loop="true" src="https://www.youtube.com/embed/EDr2_VyYUdk?autoplay=1&loop=1&playlist=EDr2_VyYUdk" frameborder="0" allowfullscreen></iframe>
+<embed src="/music/good_enough.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" />
+<h1>camron vick dot org</h1>
 
-<div class="home">
+<body>
 
-  <h1 class="page-heading">Posts</h1>
+    <h2 class="w3-center">My Portfolio</h2>
+    <div class="non-text">
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="Red Panda.svg" style="width:100%">
+            <img class="mySlides" src="/Users/camronvick/Desktop/mywebsite/Square.svg" style="width:100%">
+            <img class="mySlides" src="/Users/camronvick/Desktop/mywebsite/Asset 4.svg" style="width:100%">
+            <img class="mySlides" src="/Users/camronvick/Desktop/mywebsite/Cactus Fish.png" style="width:100%">
+            <img class="mySlides" src="https://pbs.twimg.com/profile_images/442910139637440512/lIPKt7EE.jpeg" style="width:100%">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+    <div class="counter w3-center">
+        <div id="hover_counter">Hover Counter</div>
+        <div id="hover_counter_num"></div>
+        <button id="hover_counter_btn">Reset</button>
+    </div>
+    <footer>
+        &#169Red Panda Productions, all rights reserved for Lord Camron Vick. Any Copyright infringement is punishable by deputization.
+    </footer>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="stolenWebsite.js"></script>
 
-</div>
+</html>
