@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(75, 75, 75);
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+}
+
+#my-name p{
+  text-align: center;
+  font-family: "Bebas Neue", helvetica;
+  display: inline;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 3em;
+  color: #A99260;
+
+}
+
+#my-name p::first-letter{
+
+}
+
+#my-name {
+  text-align: center;
+}
+
+.header-embroidery {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  width: 600px;
+  max-width: 50%;
+}
+
+/*for hidding scroll bar in webkit run browsers*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-bar-outer {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 90%;
+  width: 2px;
+  background-color: rgb(125, 125, 125);
+}
+
+.scroll-bar-inner {
+  position: fixed;
+  top: 5%;
+  width: 2px;
+  height: 9%;
+  background-color: rgb(175, 175, 175);
+}
+
+.left-bar {
+  left: 20%;
+}
+
+.right-bar {
+  right: 20%;
+}
+
+.rows {
+  position: relative;
+}
+.row {
+  max-width: 2000px;
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.left-text {
+  float: left;
+}
+
+.right-text {
+  float: right;
+}
+
+.inner-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(175, 175, 175);
+  overflow: scroll;
+  max-height: 250px;
+  max-width: 100%;
+  text-shadow: 10px 10px 3px rgb(50, 50, 50);
+}
+
+.outline-square {
+  margin-bottom: 50px;
+  margin-top: 25px;
+  max-width: 45%;
+  max-height: 300px;
+  width: 45%;
+  height: 100%;
+  border: 1px solid #A99260;
+  box-shadow:
+  10px 10px 2px -1px rgb(75, 75, 75),
+  10px 10px 2px 3px rgb(50, 50, 50),
+  3px 3px 2px 3px rgb(75, 75, 75) inset,
+  6px 6px 2px 4px rgb(50, 50, 50) inset;
+  border-top:
+}
+
+.right-img {
+  float: right;
+  max-width: 45%;
+  width: 300px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  box-shadow: 15px 15px 10px rgb(50, 50, 50);
+  border-top: 2px solid rgb(75, 75, 75);
+  -webkit-transition: all 750ms ease-out;
+  transition: all 750ms ease-out;
+}
+
+.right-img:hover {
+  border-top: 2px solid rgb(175, 175, 175);
+}
+
+.right-img:active {
+  opacity: 80%;
+}
+
+.left-img {
+  float: left;
+  max-width: 45%;
+  width: 300px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  box-shadow: 15px 15px 10px rgb(50, 50, 50);
+  border-top: 2px solid rgb(75, 75, 75);
+  -webkit-transition: all 750ms ease-out;
+  transition: all 750ms ease-out;
+}
+
+.left-img:hover {
+  border-top: 2px solid rgb(175, 175, 175);
+}
