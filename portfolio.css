@@ -65,8 +65,8 @@ body {
   position: relative;
 }
 .row {
-  max-width: 800px;
-  max-height: 400px;
+  max-width: 2000px;
+  height: 400px;
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -94,7 +94,7 @@ body {
   margin-top: 25px;
   max-width: 45%;
   max-height: 300px;
-  width: 300px;
+  width: 45%;
   height: 100%;
   border: 1px solid #A99260;
   box-shadow:
