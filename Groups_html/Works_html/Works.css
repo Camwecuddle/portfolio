@@ -1,17 +1,18 @@
 body {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(75, 75, 75);
 }
 
 p {
   font-family: helvetica;
   font-weight: lighter;
   text-align: left;
-  max-width: 50vw;
+  max-width: 50%;
   color: #ffffff;
   font-size: 1.5em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  color: rgb(175, 175, 175);
 }
 
 .image img{
@@ -21,14 +22,14 @@ p {
   margin-top: 6%;
   margin-bottom: 5%;
   width: auto;
-  height: 80vh;
+  height: 80%;
 
 }
 
 .work-underline {
   height: 1px;
-  width: 80vw;
-  max-width: 50vw;
+  width: 80%;
+  max-width: 50%;
   background-color: #A99260;
   margin-left: auto;
   margin-right: auto;
