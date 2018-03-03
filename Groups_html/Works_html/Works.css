@@ -35,3 +35,50 @@ p {
   margin-right: auto;
   margin-bottom: 60px;
 }
+
+.button:hover {
+  color: #000!important;
+  background-color: rgba(255,255,255,.1)!important
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 1% 1%;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+
+}
+
+.button img {
+  height: 600px;
+}
+
+.reflect img{
+  image-orientation: left;
+}
+
+.display-left {
+    margin-left: 2%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
+}
+
+.display-right {
+    margin-right: 2%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
+}
