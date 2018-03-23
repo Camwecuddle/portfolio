@@ -15,6 +15,30 @@ p {
   color: rgb(175, 175, 175);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+.menu_bar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 8%;
+  width: 100%;
+  opacity: .1;
+  background-color: rgb(255,255,255);
+
+
+}
+
+.menu_bar img {
+  height: 80%;
+  opacity: 1!important;
+  margin-top: .5%;
+  margin-left: .5%;
+}
+
 .image img{
   display: block;
   margin-left: auto;
@@ -38,7 +62,7 @@ p {
 
 .button:hover {
   color: #000!important;
-  background-color: rgba(255,255,255,.1)!important
+  background-color: rgba(255,255,255,.1)!important;
 }
 
 .button {
@@ -80,5 +104,4 @@ p {
     top: 50%;
     right: 0%;
     transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%)
 }
