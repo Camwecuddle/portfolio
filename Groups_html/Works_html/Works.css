@@ -26,17 +26,20 @@ p {
   left: 0;
   height: 8%;
   width: 100%;
-  opacity: .1;
-  background-color: rgb(255,255,255);
-
-
+  background-color: rgb(75, 75, 75);
 }
 
-.menu_bar img {
-  height: 80%;
-  opacity: 1!important;
-  margin-top: .5%;
-  margin-left: .5%;
+.button_left{
+  height: 38%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 77.5%;
+}
+
+.button_right{
+  height: 38%;
+  margin-top: 1%;
+  margin-left: 3%;
 }
 
 .image img{
