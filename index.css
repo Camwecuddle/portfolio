@@ -1,7 +1,24 @@
 body {
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(50, 50, 50);
   font-family: helvetica, sans-serif;
   font-weight: 100;
+}
+
+footer {
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 4%;
+}
+
+.footer-overline {
+  height: 1px;
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #A99260;
+  margin-bottom: 4%;
 }
 
 #my-name p{
@@ -23,10 +40,34 @@ body {
   text-align: center;
 }
 
+.menu_bar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: rgb(50, 50, 50);
+}
+
+.button_left{
+  height: 30%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 75.5%;
+}
+
+.button_right{
+  height: 30%;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
 .header-embroidery {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4%;
+  margin-top: 8%;
+  margin-bottom: 4%;
   width: 600px;
   max-width: 50%;
 }
@@ -82,11 +123,11 @@ body {
 .inner-text {
   padding-left: 20px;
   padding-right: 20px;
-  color: rgb(175, 175, 175);
+  color: rgb(255, 255, 255);
   overflow: scroll;
   max-height: 250px;
   max-width: 100%;
-  text-shadow: 10px 10px 3px rgb(50, 50, 50);
+  text-shadow: 10px 10px 3px rgb(25, 25, 25);
 }
 
 .outline-square {
@@ -98,10 +139,10 @@ body {
   height: 100%;
   border: 1px solid #A99260;
   box-shadow:
-  10px 10px 2px -1px rgb(75, 75, 75),
-  10px 10px 2px 3px rgb(50, 50, 50),
-  3px 3px 2px 3px rgb(75, 75, 75) inset,
-  6px 6px 2px 4px rgb(50, 50, 50) inset;
+  10px 10px 2px -1px rgb(50, 50, 50),
+  10px 10px 2px 3px rgb(25, 25, 25),
+  3px 3px 2px 3px rgb(50, 50, 50) inset,
+  6px 6px 2px 4px rgb(25, 25, 25) inset;
   border-top:
 }
 
@@ -112,8 +153,8 @@ body {
   padding-top: 10px;
   margin-bottom: 50px;
   margin-top: 15px;
-  box-shadow: 15px 15px 10px rgb(50, 50, 50);
-  border-top: 2px solid rgb(75, 75, 75);
+  box-shadow: 15px 15px 10px rgb(25, 25, 25);
+  border-top: 2px solid rgb(50, 50, 50);
   -webkit-transition: all 750ms ease-out;
   transition: all 750ms ease-out;
 }
@@ -133,8 +174,8 @@ body {
   padding-top: 10px;
   margin-bottom: 50px;
   margin-top: 15px;
-  box-shadow: 15px 15px 10px rgb(50, 50, 50);
-  border-top: 2px solid rgb(75, 75, 75);
+  box-shadow: 15px 15px 10px rgb(25, 25, 25);
+  border-top: 2px solid rgb(50, 50, 50);
   -webkit-transition: all 750ms ease-out;
   transition: all 750ms ease-out;
 }
