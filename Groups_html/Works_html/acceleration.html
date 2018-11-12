@@ -1,10 +1,18 @@
-<html><title>
-    Camron's Portfolio-Acceleration Font</title>
+<html>
+<title>
+  Camron's Portfolio-Acceleration Font</title>
 <link rel="stylesheet" href="Works.css">
+
 <body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("../../header.html");
+    });
+  </script>
   <div class="image">
     <img class="mySlides" src="Works/acceleration_font.png">
-    <img class ="mySlides" src="Works/acceleration_font_complete.png">
+    <img class="mySlides" src="Works/acceleration_font_complete.png">
     <button class="button black display-left" onclick="plusDivs(-1)">
       <img src="Works/arrowL.png">
     </button>
@@ -17,4 +25,5 @@
 </body>
 
 <script src="Works.js"></script>
+
 </html>
