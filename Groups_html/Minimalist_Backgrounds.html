@@ -7,10 +7,12 @@
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-    $(function () {
-      $("#header").load("../header.html");
-    });
+    $(document).ready(
+      function () {
+        $("#header").load("../header.html");
+      });
   </script>
+  <div id="header"></div>
   <div class="title-underline"></div>
   <div class="first-row pictures">
     <a href="Works_html/fish_background.html"><img class="img" src="Squares/fish_square.svg"></a>
