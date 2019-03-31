@@ -42,16 +42,6 @@ p {
     display: none;
 }
 
-.menu_bar {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  height: 8%;
-  width: 100%;
-  background-color: rgb(50, 50, 50);
-}
-
 .button_left{
   height: 38%;
   margin-top: 2.5%;
